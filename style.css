@@ -1,0 +1,64 @@
+body, p, h1. h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+a, button {
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.pre-header {
+    display: flex;
+    justify-content: flex-end;
+    margin: 4px;
+    margin-bottom: 4px;
+}
+.pre-header a {
+    color: black;
+    padding: 12px;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.language-border {
+    display: inline-block;
+    border-left: 1px solid gray;
+}
+
+.header img {
+    width: 200px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 113, 83);
+    padding: 22px;
+}
+
+.header a {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-align: right;
+    text-decoration-color: rgb(2, 130, 96);
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    background-color: rgb(0, 113, 83);
+    color: white;
+    border: none;
+}
+
+.header button:hover {
+    color:rgb(3, 71, 53);
+}
+
+.container {
+    display: flex;
+}
