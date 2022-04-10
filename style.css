@@ -1,4 +1,4 @@
-body, p, h1. h2 {
+body, p, h1, h2 {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -61,4 +61,90 @@ button {
 
 .container {
     display: flex;
+    padding: 16px 100px;
+    justify-content: space-between; 
+}
+
+.container div {
+    padding: 8px;
+}
+
+.container p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.container a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+.info-img h2 {
+    text-align: center;
+}
+
+.info-img img {
+    background-color: rgb(222, 222, 222);
+}
+
+.info-img, .info1, .info2, .info3 {
+    width: 30%;
+    height: 350px;
+}
+
+.container img {
+    width: 100%;
+    height: 70%;
+}
+
+.all-news {
+    text-align: right;
+    padding: 20px 100px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(0, 113, 83);
+}
+
+.articles {
+    padding: 20px 100px;
+    border-bottom: 1px solid black ;
+}
+
+.articles a {
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(0, 113, 83);
+}
+
+.article-list {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 20px 100px;
+}
+
+.article-list a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+
+.article-left, .article-center {
+    padding: 10px;
+    border-right: 1px solid black;
+}
+
+.article-right {
+    padding: 10px;
 }
