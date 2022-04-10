@@ -141,10 +141,77 @@ button {
 
 
 .article-left, .article-center {
-    padding: 10px;
+    padding: 20px;
     border-right: 1px solid black;
 }
 
 .article-right {
     padding: 10px;
+}
+
+.financial-guide {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    margin: 10px 0px 0px 100px;
+}
+
+.section-white {
+    display: flex;
+    justify-content: center;
+}
+
+.section-white a {
+    display: block;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: rgb(171, 171, 171);
+}
+
+.section-white p {
+    margin: 0 10px 10px 0;
+}
+
+.section-white img {
+    height: 180px;
+    background-color: rgb(0, 113, 83);
+    margin: 0 10px 10px 0;
+}
+
+.loan, .investment, .insurance, .payments, .saving {
+    
+    border-left: 2px solid rgb(0, 113, 83);
+}
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgb(49, 49, 49);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 40px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    padding: 50px;
+}
+
+.map {
+    padding: 50px;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+    background-color: rgb(58, 58, 58);
+    color: whitesmoke;
+    margin: auto;
 }
